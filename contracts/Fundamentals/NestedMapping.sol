@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.15;
 
-contract MappingOfMappings {
+contract NestedMapping {
  
     mapping(uint => bool) public myMapping;
     mapping(address => bool) public myAddressMapping;
