@@ -32,9 +32,6 @@ contract IntegerOverflowUnderflow {
     
     // Demonstrate unchecked block in calculations
     function multiply(uint256 x, uint256 y) public pure returns (uint256) {
-        // Normal checked multiplication
-        uint256 result1 = x * y; // Will revert on overflow
-        
         // Unchecked multiplication
         unchecked {
             uint256 result2 = x * y; // Will not revert, will wrap around
