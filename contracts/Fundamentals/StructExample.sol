@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.15;
  
-contract Wallet2 {
+contract StructExample {
     struct PaymentReceivedStruct {
         address from;
         uint amount;
